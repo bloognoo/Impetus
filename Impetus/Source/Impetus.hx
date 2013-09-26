@@ -2,6 +2,7 @@ package;
 
 import flash.display.Sprite;
 import flash.Lib;
+import flash.events.Event;
 
 /**
  * ...
@@ -13,6 +14,12 @@ class Impetus extends Sprite {
 
 		super ();
 
+		addEventListener( Event.ENTER_FRAME, onFrame );
+
+	}
+	
+	private function onFrame( event:Dynamic ):Void{
+		trace("Poing");
 	}
 
 }
