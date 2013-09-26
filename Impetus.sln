@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{9344BDBB-3E7f-41FC-A0DD-8665D75EE146}") = "Impetus", "Impetus\Impetus.oflproj", "{7301083B-4572-47C0-891D-C697CF586436}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|BlackBerry = Debug|BlackBerry
+		Debug|Flash = Debug|Flash
+		Debug|HTML5 = Debug|HTML5
+		Debug|iOS = Debug|iOS
+		Debug|Linux = Debug|Linux
+		Debug|Mac = Debug|Mac
+		Debug|webOS = Debug|webOS
+		Debug|Windows = Debug|Windows
+		Release|Android = Release|Android
+		Release|BlackBerry = Release|BlackBerry
+		Release|Flash = Release|Flash
+		Release|HTML5 = Release|HTML5
+		Release|iOS = Release|iOS
+		Release|Linux = Release|Linux
+		Release|Mac = Release|Mac
+		Release|webOS = Release|webOS
+		Release|Windows = Release|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Android.ActiveCfg = Debug|Android
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Android.Build.0 = Debug|Android
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Flash.ActiveCfg = Debug|Flash
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Flash.Build.0 = Debug|Flash
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|HTML5.ActiveCfg = Debug|HTML5
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|HTML5.Build.0 = Debug|HTML5
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|iOS.ActiveCfg = Debug|iOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|iOS.Build.0 = Debug|iOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Linux.ActiveCfg = Debug|Linux
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Linux.Build.0 = Debug|Linux
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Mac.ActiveCfg = Debug|Mac
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Mac.Build.0 = Debug|Mac
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|webOS.ActiveCfg = Debug|webOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|webOS.Build.0 = Debug|webOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Windows.ActiveCfg = Debug|Windows
+		{7301083B-4572-47C0-891D-C697CF586436}.Debug|Windows.Build.0 = Debug|Windows
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Android.ActiveCfg = Release|Android
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Android.Build.0 = Release|Android
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Flash.ActiveCfg = Release|Flash
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Flash.Build.0 = Release|Flash
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|HTML5.ActiveCfg = Release|HTML5
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|HTML5.Build.0 = Release|HTML5
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|iOS.ActiveCfg = Release|iOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|iOS.Build.0 = Release|iOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Linux.ActiveCfg = Release|Linux
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Linux.Build.0 = Release|Linux
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Mac.ActiveCfg = Release|Mac
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Mac.Build.0 = Release|Mac
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|webOS.ActiveCfg = Release|webOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|webOS.Build.0 = Release|webOS
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Windows.ActiveCfg = Release|Windows
+		{7301083B-4572-47C0-891D-C697CF586436}.Release|Windows.Build.0 = Release|Windows
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Impetus\Impetus.oflproj
+	EndGlobalSection
+EndGlobal
