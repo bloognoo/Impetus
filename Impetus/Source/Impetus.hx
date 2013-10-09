@@ -1,10 +1,9 @@
 package;
 
 import flash.display.Sprite;
-import flash.Lib;
 import flash.events.Event;
 
-import GameBoard;
+import elements.GameBoard;
 
 /**
  * ...
@@ -18,9 +17,9 @@ class Impetus extends Sprite {
 
 		super ();
 
-		gameBoard = new GameBoard();
-		gameBoard.x = 100;
-		gameBoard.y = 100;
+		gameBoard = new GameBoard("assets/scripts/levels/0-0.xml");
+		//gameBoard.x = 100;
+		//gameBoard.y = 150;
 		addChild(gameBoard);
 
 	}

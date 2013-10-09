@@ -1,6 +1,6 @@
 package bars;
 
-import flash.display.Sprite;
+import openfl.display.Sprite;
 
 import motion.Actuate;
 import motion.easing.Linear;
