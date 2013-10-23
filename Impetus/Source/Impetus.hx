@@ -5,6 +5,10 @@ import flash.events.Event;
 
 import elements.GameBoard;
 
+import sys.FileSystem;
+import sys.FileStat;
+import sys.io.File;
+
 /**
  * ...
  * @author bloognoo
@@ -17,12 +21,20 @@ class Impetus extends Sprite {
 
 		super ();
 
-		gameBoard = new GameBoard("assets/scripts/levels/0-0.xml");
-		//gameBoard.x = 100;
-		//gameBoard.y = 150;
-		addChild(gameBoard);
+		var files:Array<String> = FileSystem.readDirectory( "assets/scripts/levels" );
 
+		files.sort(function(a,b) return Reflect.compare(a.toLowerCase(), b.toLowerCase()) );
+
+		gameBoard = new GameBoard( File.getContent( "assets/scripts/levels/"+files[0] ) );
+		addChild( gameBoard );
+		
+		/*for( file in files ){
+			if( file.indexOf("xml") != -1 ){
+			
+			trace(file);
+			//	gameBoard = new GameBoard( File.getContent( "assets/scripts/levels/"+file ) );
+			//	addChild( gameBoard );
+			}
+		}*/
 	}
-	
-
 }

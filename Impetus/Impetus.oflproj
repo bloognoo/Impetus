@@ -80,10 +80,45 @@
     <Compile Include="Source\discs\DiscBase.hx" />
     <Compile Include="Source\bars\BarBase.hx" />
     <Compile Include="Source\bars\Spark.hx" />
+    <Compile Include="Source\pins\PinBase.hx" />
+    <Compile Include="Resources\testbits\bits.xcf" />
+    <Compile Include="Resources\testbits\testbits.xcf" />
+    <Compile Include="Assets\testbits\bits.png" />
+    <Compile Include="Assets\scripts\levels\0-0.xml" />
+    <Compile Include="Source\elements\Palette.hx" />
+    <Compile Include="Source\elements\GameBoard.hx" />
+    <Compile Include="Source\elements\GridElement.hx" />
+    <Compile Include="Source\factories\PinFactory.hx" />
+    <Compile Include="Source\pins\PinNone.hx" />
+    <Compile Include="Source\pins\PinDefault.hx" />
+    <Compile Include="Source\factories\DiscFactory.hx" />
+    <Compile Include="Source\discs\DiscNone.hx" />
+    <Compile Include="Source\discs\DiscDefault.hx" />
+    <Compile Include="Source\discs\DiscBar.hx" />
+    <Compile Include="Source\discs\DiscL.hx" />
+    <Compile Include="Source\discs\DiscT.hx" />
+    <Compile Include="Source\discs\DiscCross.hx" />
+    <Compile Include="Source\elements\Backdrop.hx" />
+    <Compile Include="Assets\scripts\levels\robot1.png" />
+    <Compile Include="Source\pins\PinStart.hx" />
+    <Compile Include="Source\pins\PinEnd.hx" />
+    <Compile Include="Source\elements\Tray.hx" />
+    <Compile Include="Assets\scripts\levels\0-1.xml" />
+    <Compile Include="Assets\scripts\levels\0-2.xml" />
+    <Compile Include="Assets\scripts\levels\0-3.xml" />
+    <Compile Include="Assets\scripts\levels\0-4.xml" />
+    <Compile Include="Assets\scripts\levels\0-5.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Source\discs\" />
-    <Folder Include="Source\discs\" />
     <Folder Include="Source\bars\" />
+    <Folder Include="Source\pins\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Assets\testbits\" />
+    <Folder Include="Assets\scripts\" />
+    <Folder Include="Assets\scripts\levels\" />
+    <Folder Include="Source\elements\" />
+    <Folder Include="Source\factories\" />
+    <Folder Include="Source\levels\" />
   </ItemGroup>
 </Project>

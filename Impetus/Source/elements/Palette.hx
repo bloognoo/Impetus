@@ -4,7 +4,7 @@ import flash.display.Sprite;
 
 import haxe.xml.Fast;
 
-import discs.DiscBase;
+import elements.Tray;
 
 import factories.DiscFactory;
 
@@ -16,7 +16,7 @@ class Palette extends Sprite {
 	
 	private static inline var GRID_SEPARATION: Int = 80;
 	
-	private var discs:Array<Array<DiscBase>> = null;
+	private var trays:Array<Tray> = null;
 	
 	public function new ( data:Xml ) {
 
@@ -24,9 +24,9 @@ class Palette extends Sprite {
 		
 		var count:Int = 0;
 		for( disc in data.elementsNamed("disc") ){
-			var newDisc:DiscBase = DiscFactory.build( disc );
-			newDisc.x = count*GRID_SEPARATION;
-			addChild( newDisc );
+			var newTray:Tray = new Tray( DiscFactory.build( disc ), Std.parseInt(disc.get("count")) );
+			newTray.x = count*GRID_SEPARATION;
+			addChild( newTray );
 			count ++;
 		}
 	}		

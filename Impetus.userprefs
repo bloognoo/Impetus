@@ -1,21 +1,24 @@
-﻿<Properties>
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|Linux" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Impetus/Source/bars/Spark.hx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Impetus/Source/Impetus.hx">
     <Files>
-      <File FileName="Impetus/Source/Impetus.hx" Line="34" Column="5" />
-      <File FileName="Impetus/Source/discs/DiscBase.hx" Line="41" Column="21" />
-      <File FileName="Impetus/Source/bars/BarBase.hx" Line="26" Column="38" />
-      <File FileName="Impetus/Source/bars/Spark.hx" Line="26" Column="28" />
+      <File FileName="Impetus/Assets/scripts/levels/0-0.xml" Line="17" Column="21" />
+      <File FileName="Impetus/Source/Impetus.hx" Line="29" Column="6" />
+      <File FileName="Impetus/Source/elements/GameBoard.hx" Line="34" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Impetus" expanded="True">
-            <Node name="Source" expanded="True">
-              <Node name="bars" expanded="True">
-                <Node name="Spark.hx" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="levels" expanded="True">
+                  <Node name="0-5.xml" selected="True" />
+                </Node>
               </Node>
-              <Node name="discs" expanded="True" />
+            </Node>
+            <Node name="Source" expanded="True">
+              <Node name="elements" expanded="True" />
             </Node>
           </Node>
         </State>

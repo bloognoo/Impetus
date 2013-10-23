@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<level>
+	<grid x="6" y="6" >
+		<!-- layer 1 -->
+		<pin type="NONE"/>
+		<pin type="NONE"/>
+		<pin type="NONE"/>
+		<pin type="NONE"/>
+		<pin type="END"/>
+		<pin type="NONE"/>
+		<!-- layer 2 -->
+		<pin type="NONE"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="NONE"/>
+		<!-- layer 3 -->
+		<pin type="NONE"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="NONE"/>
+		<!-- layer 4 -->
+		<pin type="NONE"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="NONE"/>
+		<!-- layer 5 -->
+		<pin type="NONE"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="DEFAULT"/>
+		<pin type="NONE"/>
+		<!-- layer 1 -->
+		<pin type="NONE"/>
+		<pin type="START"/>
+		<pin type="NONE"/>
+		<pin type="NONE"/>
+		<pin type="NONE"/>
+		<pin type="NONE"/>
+	</grid>
+	<palette>
+		<disc type="NONE" 	count="1"/>
+		<disc type="SINGLE" count="2"/>
+		<disc type="BAR" 	count="3"/>
+		<disc type="L" 		count="4"/>
+		<disc type="T" 		count="5"/>
+		<disc type="CROSS" 	count="6"/>
+	</palette>
+	<robot src="robot1.png" x="100" y="100" w="300" h="300" />
+</level>

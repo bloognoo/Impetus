@@ -7,4 +7,5 @@
 	<haxelib name="actuate" />
 	<assets path="Assets" rename="assets" include="*" exclude="openfl.svg" />
 	<icon path="Assets/openfl.svg" />
+	<window width="480" height="854" />
 </project>

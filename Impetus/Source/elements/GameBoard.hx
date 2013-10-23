@@ -2,6 +2,7 @@ package elements;
 
 import openfl.Assets;
 import flash.display.Sprite;
+import flash.events.MouseEvent;
 import haxe.xml.Fast;
 
 import discs.DiscBase;
@@ -31,7 +32,7 @@ class GameBoard extends Sprite{
 		
 		super();
 		
-		var level:Xml = Xml.parse(Assets.getText( levelScript )).elementsNamed("level").next();
+		var level:Xml = Xml.parse( levelScript ).elementsNamed("level").next();
 		
 		backdrop = new Backdrop( level.elementsNamed("robot").next() );
 		backdrop.x = -375;
@@ -62,6 +63,13 @@ class GameBoard extends Sprite{
 			count ++;
 		}
 		
+		addEventListener( MouseEvent.MOUSE_UP, drop );
 	}		
+
+	private function drop( event:Dynamic ){
+		this.stopDrag();
+		trace("up ");
+	}
+
 
 }
