@@ -24,7 +24,7 @@ class Tray extends Sprite {
 		graphics.drawRoundRect( -40, -40, 80, 80, 30, 30 );
 		graphics.endFill();
 		
-		disc.isInteractive = false;
+		//disc.isInteractive = false;
 		
 		addChild( disc );		
 	}		

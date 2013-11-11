@@ -1,13 +1,13 @@
 package;
 
+import openfl.Assets;
+
 import flash.display.Sprite;
+import flash.display.StageAlign;
+import flash.display.StageScaleMode;
 import flash.events.Event;
-
+import flash.display.Bitmap;
 import elements.GameBoard;
-
-import sys.FileSystem;
-import sys.FileStat;
-import sys.io.File;
 
 /**
  * ...
@@ -21,20 +21,14 @@ class Impetus extends Sprite {
 
 		super ();
 
-		var files:Array<String> = FileSystem.readDirectory( "assets/scripts/levels" );
+		stage.align = StageAlign.TOP_LEFT;
+		stage.scaleMode = StageScaleMode.NO_SCALE;	
 
-		files.sort(function(a,b) return Reflect.compare(a.toLowerCase(), b.toLowerCase()) );
+		trace( "WIDTH:  "+stage.stageWidth );
+		trace( "HEIGHT: "+stage.stageHeight);
 
-		gameBoard = new GameBoard( File.getContent( "assets/scripts/levels/"+files[0] ) );
+		gameBoard = new GameBoard( Assets.getText("assets/scripts/levels/0-0.xml") );
 		addChild( gameBoard );
 		
-		/*for( file in files ){
-			if( file.indexOf("xml") != -1 ){
-			
-			trace(file);
-			//	gameBoard = new GameBoard( File.getContent( "assets/scripts/levels/"+file ) );
-			//	addChild( gameBoard );
-			}
-		}*/
 	}
 }
