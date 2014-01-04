@@ -21,7 +21,7 @@ class Tray extends Sprite {
 		count = discCount;
 		
 		graphics.beginFill( 0xDDDD00 );
-		graphics.drawRoundRect( -40, -40, 80, 80, 30, 30 );
+		graphics.drawRoundRect( N.nx(-0.0825), N.ny(-0.0475), N.nx(0.17), N.ny(0.1), N.nx(0.04), N.ny(0.022) );
 		graphics.endFill();
 		
 		//disc.isInteractive = false;

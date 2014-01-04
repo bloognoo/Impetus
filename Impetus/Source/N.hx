@@ -20,11 +20,11 @@ class N  extends Sprite{
 	//private static var xAspect:Float = 1.0;
 	//private static var yAspect:Float = 1.0;
 
-	public static function nx( xPos:Float ){
+	public static function nx( xPos:Float = 1.0){
 		return Math.floor( xRes * xPos );
 	}
 	
-	public static function ny( yPos:Float ){
+	public static function ny( yPos:Float = 1.0){
 		return Math.floor( yRes * yPos );
 	}
 	
@@ -39,7 +39,6 @@ class N  extends Sprite{
 	}
 	
 	private function onResize( event:Event ):Void {
-		trace("Resize Called");
 		xRes = stage.stageWidth;
 		yRes = stage.stageHeight;
 	}

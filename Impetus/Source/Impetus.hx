@@ -21,11 +21,11 @@ class Impetus extends Sprite {
 
 		super ();
 
+		addChild( new N() ); //Set up normalised coordinate system
+		
+
 		stage.align = StageAlign.TOP_LEFT;
 		stage.scaleMode = StageScaleMode.NO_SCALE;	
-
-		trace( "WIDTH:  "+stage.stageWidth );
-		trace( "HEIGHT: "+stage.stageHeight);
 
 		gameBoard = new GameBoard( Assets.getText("assets/scripts/levels/0-0.xml") );
 		addChild( gameBoard );

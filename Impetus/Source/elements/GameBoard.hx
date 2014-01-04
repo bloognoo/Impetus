@@ -19,8 +19,6 @@ import factories.PinFactory;
  */
 class GameBoard extends Sprite{
 	
-	private static inline var GRID_SEPARATION: Int = 80;
-	
 	private var gridX:Int = 0;
 	private var gridY:Int = 0;
 	
@@ -35,17 +33,10 @@ class GameBoard extends Sprite{
 		var level:Xml = Xml.parse( levelScript ).elementsNamed("level").next();
 		
 		backdrop = new Backdrop( level.elementsNamed("robot").next() );
-		backdrop.x = -375;
-		backdrop.y = -500;
-		backdrop.width = backdrop.width * 2.5;
-		backdrop.height = backdrop.height * 2.5;
 		addChild( backdrop );
+		backdrop.scaleY = 2.5;
+		backdrop.scaleX = 2.5;
 		
-		palette = new Palette( level.elementsNamed("palette").next() );
-		palette.y = 800;
-		palette.x = GRID_SEPARATION/2;
-		addChild( palette );
-				
 		gameBoard = new Array<GridElement>();
 		
 		var count:Int = 0;
@@ -55,13 +46,18 @@ class GameBoard extends Sprite{
 				
 		for( pin in grid.elementsNamed("pin") ){
 			var newPin:PinBase = PinFactory.build( pin );
-			newPin.x = (Math.floor(count%gridX)*GRID_SEPARATION)+37;
-			newPin.y = (Math.floor(count/gridX)*GRID_SEPARATION)+150;
+			newPin.x = N.nx( (Math.floor(count%gridX)*0.15) + 0.125 );
+			newPin.y = N.ny( (Math.floor(count/gridX)*0.09) + 0.2 );
 			//trace( count+" "+newPin.x+"|"+newPin.y );
 			gameBoard.push( newPin );
 			addChild( newPin );
 			count ++;
 		}
+
+		palette = new Palette( level.elementsNamed("palette").next() );
+		palette.x = N.nx(0.0855);
+		palette.y = N.ny(0.9);
+		addChild( palette );
 		
 		addEventListener( MouseEvent.MOUSE_UP, drop );
 	}		
