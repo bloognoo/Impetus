@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<project>
-	<meta title="ScreenNormalizer" package="mycompany.myapp" version="1.0.0" company="" />
-	<app path="Export" main="ScreenNormalizer" file="ScreenNormalizer" />
-	<source path="Source" />
-	<haxelib name="openfl" />
-	<assets path="Assets" rename="assets" include="*" exclude="openfl.svg" />
-	<icon path="Assets/openfl.svg" />
-</project>
