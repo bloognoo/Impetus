@@ -1,16 +1,16 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|Linux" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Impetus/Source/elements/GameBoard.hx">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|Android" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Impetus/Source/elements/Title.hx">
     <Files>
       <File FileName="Impetus/Source/factories/DiscFactory.hx" Line="1" Column="1" />
       <File FileName="Impetus/Source/Impetus.hx" Line="30" Column="1" />
       <File FileName="Impetus/Source/N.hx" Line="27" Column="45" />
-      <File FileName="Impetus/Source/elements/GameBoard.hx" Line="57" Column="2" />
+      <File FileName="Impetus/Source/elements/GameBoard.hx" Line="42" Column="21" />
       <File FileName="Impetus/Source/elements/Backdrop.hx" Line="26" Column="44" />
       <File FileName="Impetus/Assets/scripts/levels/0-0.xml" Line="55" Column="37" />
       <File FileName="Impetus/Source/elements/GridElement.hx" Line="10" Column="1" />
       <File FileName="Impetus/Source/elements/Palette.hx" Line="26" Column="33" />
-      <File FileName="Impetus/Source/elements/Tray.hx" Line="24" Column="66" />
+      <File FileName="Impetus/Source/elements/Tray.hx" Line="38" Column="40" />
       <File FileName="Impetus/Source/pins/PinBase.hx" Line="1" Column="1" />
       <File FileName="Impetus/Source/pins/PinDefault.hx" Line="1" Column="1" />
       <File FileName="Impetus/Source/pins/PinEnd.hx" Line="1" Column="1" />
@@ -18,6 +18,7 @@
       <File FileName="Impetus/Source/pins/PinStart.hx" Line="1" Column="1" />
       <File FileName="Impetus/Source/factories/PinFactory.hx" Line="1" Column="1" />
       <File FileName="Impetus/Source/discs/DiscBar.hx" Line="26" Column="1" />
+      <File FileName="Impetus/Source/elements/Title.hx" Line="49" Column="79" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,7 +33,7 @@
               <Node name="bars" expanded="True" />
               <Node name="discs" expanded="True" />
               <Node name="elements" expanded="True">
-                <Node name="GameBoard.hx" selected="True" />
+                <Node name="Title.hx" selected="True" />
               </Node>
               <Node name="factories" expanded="True" />
               <Node name="pins" expanded="True" />

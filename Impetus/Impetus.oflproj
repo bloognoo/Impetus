@@ -109,6 +109,7 @@
     <Compile Include="Assets\scripts\levels\0-4.xml" />
     <Compile Include="Assets\scripts\levels\0-5.xml" />
     <Compile Include="Source\N.hx" />
+    <Compile Include="Source\elements\Title.hx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Source\discs\" />

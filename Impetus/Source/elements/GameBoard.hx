@@ -25,6 +25,7 @@ class GameBoard extends Sprite{
 	private var backdrop:Backdrop = null;
 	private var palette:Palette = null;
 	private var gameBoard:Array<GridElement> = null;
+	private var title:Title = null;
 	
 	public function new ( levelScript:String ) {
 		
@@ -36,7 +37,10 @@ class GameBoard extends Sprite{
 		addChild( backdrop );
 		backdrop.scaleY = 2.5;
 		backdrop.scaleX = 2.5;
-		
+
+		title = new Title();
+		addChild( title );
+
 		gameBoard = new Array<GridElement>();
 		
 		var count:Int = 0;
